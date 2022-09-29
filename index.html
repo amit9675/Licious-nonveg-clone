@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar{
+        display:flex;
+        border:px solid green;
+        width:80%;
+        margin:auto;
+    }
+    .navbar div{
+border:px solid yellow;
+width:100%;
+/* margin:auto; */
+/* height:100%; */
+    }
+    .subnav{
+        display:flex;
+    }
+    .i>input{
+width:70%;
+    }
+    .location{
+        width:50%;
+        border:px solid purple;
+    }
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+        border:px solid red;
+        /* height:100px; */
+        width: 70%;
+        gap:20px;
+        margin:auto;
+        margin-top:10px;
+    }
+    #grid div{
+        border:px solid purple;
+        /* margin:auto; */
+        text-align: center;
+      
+    }
+.poster img{
+    width:100%;
+    border:1px solid red;
+}
+#grid div img{
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.menu1{
+    width:70%;
+    margin:auto;
+}
+.menu1 p{
+    /* padding-top:100px; */
+    /* border:1px solid green; */
+    margin-top:-20px;
+}
+.banner{
+    /* display:flex; */
+    background-color: rgb(255,220,147);
+    width:60%;
+    height:95px;
+    margin:auto;
+    /* justify-content: space-between; */
+}
+.banner-top{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+}
+.banner button{
+    background-color: red;
+    font-size: 16px;
+    font-weight: 500;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+.banner-bottom{
+    margin-left:10px;
+}
+.know_the{
+    position:relative;
+    border:1px solid red;
+}
+ul{
+    list-style-type: none;
+}
+.ul{
+    display:flex;
+}
+.subh{
+    display:flex;
+    border:1px solid black;
+    width:60%;
+    margin:auto;
+    text-align:center;
+    margin-top:-10px;
+}
+.subh div{
+    border-right:1px solid black;
+    border:0px solid black;
+    margin:auto;
+    text-align:center;
+}
+.table h2{
+    text-align:center;
+    border:0px solid black;
+    width:20%;
+    margin:auto;
+    /* padding-top: 100px; */
+    background-color: white;
+}
+.img{
+    width:70%;
+    margin:20px auto;
+}
+.a,.boneless-cuts{
+            display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 100px; */
+    gap:15px;
+    width:80%;
+    border:px solid red;
+    margin:auto;
+
+        }
+        .a>div{
+            border:px solid green;
+            border-radius:10px;
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        }
+    
+.s-top button{
+    background-color: red;
+    color:white;
+    height:40px;
+    border-radius:8px;
+    border:none;
+}
+.s-bottom{
+    display:flex;
+    justify-content: center;
+    margin-top:-20px;
+    width:100px;
+    border:px solid red;
+    margin:auto;
+}
+.s-top{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    color:red;
+    height:20px;
+    align-items:center;
+    font-size: larger;
+   
+}
+.a-top>img{
+width:100%;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.a-top h3,p,h4,h5{
+    margin-left:15px;
+}
+.h2{
+    width:80%;
+    margin:auto;
+}
+
+.menu2{
+    margin-top:60px;
+    margin-bottom:10px;
+}
+.banner-2{
+    display:flex;
+    justify-content:space-around;
+    border:0px solid red;
+    width:45%;
+    margin:50px auto;
+    background-color:rgb(246,227,230);
+    height:80px;
+    
+}
+
+.b2{
+display:flex;
+justify-content:flex-start;
+}
+.b2 img{
+    margin-top:13px;
+}
+.anchor{
+    margin-top:20px;
+    color:rgb(209,18,67)}
+.b2 h5{
+margin-top:15px;
+}
+.dis{
+    color:green;
+}
+.checkout{
+    display:flex;
+    width:80%;
+    margin:auto;
+    border:px solid red;
+    justify-content: space-between;
+}
+.see{
+    margin-top:30px;
+    margin-right:40px;
+
+}
+.blog{
+display:flex;
+width:80%;
+margin:auto;
+}
+.blog img{
+    width:100%;
+}
+.blog>div{
+    width:31%;
+    margin:auto;
+    border:px solid red;
+}
+.ad{
+    /* margin:auto;
+    width:100%; */
+    text-align:center;
+}
+.insta{
+    text-align:center;
+}
+.insta p{
+    width:40%;
+    margin:auto;
+}
+.g1{
+    display:flex;
+    width:100%;
+}
+.g1>div{
+    width:33%;
+}
+.instagram{
+    display:flex;
+    width:70%;
+    margin:auto;
+    border:px solid red;
+}
+.instagram>div{
+    width:33%;
+    border:px solid green;
+
+}
+.images>img{
+    width:100%;
+}
+.review{
+    display:flex;
+
+}
+.review div{
+    width:50%;
+}
+.logo img{
+    width:20%;
+}
+</style>
+<body>
+    <div class="navbar">
+        <div>
+            <img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt="">
+        </div>
+        <div class="location">
+            <img src="https://www.licious.in/img/rebranding/location_icon.svg" alt="">
+            <h1>Ahdmkjjkhad</h1>
+        </div>
+        <div class="i">
+            <input type="text" placeholder="Search for any delicious product" >
+        </div>
+        <div class="subnav">
+          <div>Categories</div>
+          <div>login</div>
+          <div>cart</div>
+        </div>
+    </div>
+    <div class="poster"><img src="https://d2407na1z3fc0t.cloudfront.net/Slider/banner_62e142fbed5a8" alt="">
+    </div>
+    <div class="menu1">
+        <h2>Shop By Categories</h2>
+        <p>Freshest meats for you</p>
+    </div>
+
+<div id="grid">
+    
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/cb6e4eb8-6aec-7872-1638-0c2cf7970b71/original/Todays_Deals.png" alt="">
+        <h3>Today's deals</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/34466dbd-a515-edd1-3e99-05000f217cb6/original/Chicken_(2).png" alt="">
+        <h3>Chicken</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/caac432f-545f-f03f-ce10-3b911916da70/original/FIsh_(1).png" alt="">
+        <h3>Fish & Seafood</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/3a3d173d-5537-dafc-0be4-dec0791dcd24/original/MUT.png" alt="">
+        <h3>Mutton</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/21653c3a-4d6d-da71-2432-6833b88e9629/original/RC.png" alt="">
+        <h3>Ready To Cook</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/f4053965-f199-80a0-2551-d85d712574e2/original/Prawn_(2).png" alt="">
+        <h3>Prawns</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/49a8dd0c-7254-0b89-b348-b57281c76f5a/original/Coldcuts_(2).png" alt="">
+        <h3>Cold Cuts</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/d9a97969-ebd7-977c-e676-b343a18d7318/original/SPD.png" alt="">
+        <h3>Spreads</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/1bd08fae-c971-390a-ce8a-6f6502f5bd0d/original/Eggs_(1).png" alt="">
+        <h3>Eggs</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0b7ccd0f-0811-c38b-5420-0317c8006bda/original/Biryani_(2).png" alt="">
+        <h3>Biryani & kebab</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/69b72338-4180-2631-b175-04265b1e5c7a/original/Combo_(2).png" alt="">
+        <h3>Combos</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/1bd08fae-c971-390a-ce8a-6f6502f5bd0d/original/Eggs_(1).png" alt="">
+        <h3>Gourmet</h3>
+    </div>
+    
+    
+</div>
+<div class="banner">
+<div class="banner-top">
+    <img src="https://www.licious.in/img/rebranding/loyalty_licious_logo.svg" alt="">
+    <button>Join now</button>
+</div>
+<hr>
+<div class="banner-bottom">
+    <b>Join MEATOPIA to get free delivery on all orders with cart value more than Rs.99.</b>
+</div>
+</div>
+<div class="table">
+<h2>know the licious way</h2>
+<div class="subh">
+    <div>
+       <p>Premium</p>
+        <p>Produce</p>
+    </div>
+  
+    <div>
+       <p>Premium</p>
+        <p>Produce</p>
+    </div>
+  
+    <div>
+       <p>Premium</p>
+        <p>Produce</p>
+    </div>
+  
+    <div>
+       <p>Premium</p>
+        <p>Produce</p>
+    </div>
+  
+    <div>
+       <p>Premium</p>
+        <p>Produce</p>
+    </div>
+  
+</div>
+</div>
+     <div class="img">
+   
+       <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-StaticBanner/4c895baf-28fb-2833-8d19-37d05c51d39c/original/static-bank-units-Sep-web_(11).jpg?format=webp" alt="">
+     </div>  
+     <h2 class="h2">Best Sellers</h2>
+     <div class="a">
+        <div class="a-top">
+            <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/753619de-90d9-d37a-f605-ad55907cf29a/original/kkkkkkkkkk.jpg?format=webp" alt="">
+            <h4>Chicken curry cut-small pieces</h4>
+            <p>Small pieces of bone & boneless</p>
+            <h4>500gms</h4>
+            <div class="s-top">
+                <h5>MRP:150</h5>
+                <button>Add To Cart</button>
+            </div>
+            <hr>
+            <div class="s-bottom">
+                <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="">
+                <p>Today in 90 min</p>
+            </div>
+        </div>
+        <div class="a-top">
+            <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/bd705f18-cf47-2d57-f4e7-f0f6833cf667/original/sho.jpg?format=webp" alt="">
+            <h4>Chicken curry cut-small pieces(Large)</h4>
+            <p>Bone in chunky piece of skinless meat..</p>
+            <h4>500gms</h4>
+            <div class="s-top">
+                <h5>MRP:150</h5>
+                <button>Add To Cart</button>
+            </div>
+            <hr>
+            <div class="s-bottom">
+                <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="">
+                <p>Today in 90 min</p>
+            </div>
+        </div>
+        <div class="a-top">
+            <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/1cfd29f3-bfa7-a29e-de75-6925786ff1c0/original/Classic-Eggs---Pack-of-12-Hero-Shot.jpg?format=webp" alt="">
+            <h4>Classic eggs-pack of 12</h4>
+            <p>White shell egs laid by healthy hens</p>
+            <h4>12-pack</h4>
+            <div class="s-top">
+                <h5>MRP:150</h5>
+                <button>Add To Cart</button>
+            </div>
+            <hr>
+            <div class="s-bottom">
+                <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="">
+                <p>Today in 90 min</p>
+            </div>
+        </div>
+   </div>
+   <div class="menu2">
+    <h2 class="h2">Boneless-cuts</h2>
+   </div>
+
+<div class="boneless-cuts">
+<div class="a-top">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/daf3ab27-1f37-174b-9732-b912d2bd9bf8/original/Goat-Boneless-Hero-Shot.jpg?format=webp" alt="">
+        <h4>Goat bonless</h4>
+        <p>Chunky even-piece of fat trimmered ....</p>
+        <h4>500gms</h4>
+        <div class="s-top">
+            <h5>MRP:735</h5>
+            <button>Add To Cart</button>
+        </div>
+        <hr>
+        <div class="s-bottom">
+            <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="">
+            <p>Tommorrow 7Am-9PM</p>
+        </div>
+    </div>
+    <div class="a-top">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/45934d44-47c7-8e4d-7d4d-1e7a98adbb4c/original/Chicken_Thigh_Boneless_Hero_Shot.jpg?format=webp" alt="">
+        <h4>Chicken Thigh Boneless</h4>
+        <p>Skinless,pale,pink,boneless,meat from upper chick</p>
+        <h4>500gms</h4>
+        <div class="s-top">
+            <h5>MRP:450</h5>
+            <button>Add To Cart</button>
+        </div>
+        <hr>
+        <div class="s-bottom">
+            <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="">
+            <p>Today in 90 min</p>
+        </div>
+    </div>
+    <div class="a-top">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/7830b3af-cde3-40ec-80bb-2ba1f12a9755/original/p0_tile_images-07_(1).jpg?format=webp" alt="">
+        <h4>Basa boneless cubes</h4>
+        <p>Relish the smooth,soft texture</p>
+        <h4>400gms</h4>
+        <div class="s-top">
+            <h5>MRP:449</h5>
+            <button>Add To Cart</button>
+        </div>
+        <hr>
+        <div class="s-bottom">
+            <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="">
+            <p>Today in 90 min</p>
+        </div>
+    </div>
+   </div>
+<div class="banner-2">
+    <div class="b2">
+        <div>
+            <img src="https://www.licious.in/img/rebranding/rewards/rewards_icon.svg" alt="">
+        </div>
+     <div>
+        <h5>MY Rewards</h5>
+        <h6>Place an order and win your next reward!</h6>
+     </div>
+        
+    </div>
+    <div class="anchor">
+        <a href="https://www.licious.in/">Click Here to View</a>
+    </div>
+   </div>
+   <div class="h2">
+    <h2>Explore by categories</h2>
+   </div>
+ <div id="grid">
+    
+<div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/cb6e4eb8-6aec-7872-1638-0c2cf7970b71/original/Todays_Deals.png" alt="">
+        <h3>Today's deals</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/34466dbd-a515-edd1-3e99-05000f217cb6/original/Chicken_(2).png" alt="">
+        <h3>Chicken</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/caac432f-545f-f03f-ce10-3b911916da70/original/FIsh_(1).png" alt="">
+        <h3>Fish & Seafood</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/3a3d173d-5537-dafc-0be4-dec0791dcd24/original/MUT.png" alt="">
+        <h3>Mutton</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/21653c3a-4d6d-da71-2432-6833b88e9629/original/RC.png" alt="">
+        <h3>Ready To Cook</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/f4053965-f199-80a0-2551-d85d712574e2/original/Prawn_(2).png" alt="">
+        <h3>Prawns</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/49a8dd0c-7254-0b89-b348-b57281c76f5a/original/Coldcuts_(2).png" alt="">
+        <h3>Cold Cuts</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/d9a97969-ebd7-977c-e676-b343a18d7318/original/SPD.png" alt="">
+        <h3>Spreads</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/1bd08fae-c971-390a-ce8a-6f6502f5bd0d/original/Eggs_(1).png" alt="">
+        <h3>Eggs</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0b7ccd0f-0811-c38b-5420-0317c8006bda/original/Biryani_(2).png" alt="">
+        <h3>Biryani & kebab</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/69b72338-4180-2631-b175-04265b1e5c7a/original/Combo_(2).png" alt="">
+        <h3>Combos</h3>
+    </div>
+    <div>
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/1bd08fae-c971-390a-ce8a-6f6502f5bd0d/original/Eggs_(1).png" alt="">
+        <h3>Gourmet</h3>
+    </div>
+    
+    
+</div>
+<div class="h2">
+    <h2>Breakfast & Snacking Specials</h2>
+
+    <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+</div>
+<div class="a">
+    <div class="a-top">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/fee95638-21fd-1706-4569-ed42430fd716/original/Sriracha-chicken-spreadsTIle-image.jpg?format=webp" alt="">
+        <h5>Chicken sriracha chicken spread</h5>
+        <p>Freshly cooked chicken in a creamy spicy base</p>
+        <h4>piece:1</h4>
+        <div class="s-top">
+            <h5>MRP:160 &nbsp &nbsp<del>₹229</del><span class="dis"> &nbsp &nbsp &nbsp &nbsp30%off</span></h5>
+            <button>Add To Cart</button>
+        </div>
+        <hr>
+        <div class="s-bottom">
+            <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="">
+            <p>Today in 90 min</p>
+        </div>
+    </div>
+
+
+
+<div class="a-top">
+    <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/406279ca-cf70-479b-a9c2-170e10c23eec/original/Chunky-Shawarma-Chicken-Spread_(7).jpg?format=webp" alt="">
+    <h5>Chunky sawarna chicken spread</h5>
+    <p>A creamy base with freshy chicken roasted..</p>
+    <h4>Piece:1</h4>
+    <div class="s-top">
+      
+        <h5>MRP:179 &nbsp &nbsp<del>₹199</del><span class="dis"> &nbsp &nbsp &nbsp &nbsp10%off</h5>
+        <button>Add To Cart</button>
+    </div>
+    <hr>
+    <div class="s-bottom">
+        <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="">
+        <p>Today in 90 min</p>
+    </div>
+</div>
+<div class="a-top">
+    <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/406279ca-cf70-479b-a9c2-170e10c23eec/original/Chunky-Shawarma-Chicken-Spread_(7).jpg?format=webp" alt="">
+    <h4>Chicken herby tomato chicken spread</h4>
+    <p>A pleasant contrast of meety chicken junk</p>
+    <h4>Piece:1</h4>
+    <div class="s-top">
+        <h5>MRP:179 &nbsp &nbsp<del>₹199</del><span class="dis"> &nbsp &nbsp &nbsp &nbsp35%off</h5>
+        <button>Add To Cart</button>
+    </div>
+    <hr>
+    <div class="s-bottom">
+        <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="">
+        <p>Today in 90 min</p>
+    </div>
+    </div>
+</div>
+<div class="checkout">
+    <div><h2>Checkout our vlogs</h2></div>
+    <div class="see"><a href="https://www.licious.in/blog/"> See all</a></div>
+</div>
+    <div class="blog">
+        <div>
+            <img src="https://www.licious.in/blog/wp-content/uploads/2022/09/Shutterstock_11955199571.jpg" alt="">
+            <p>Chicken Lazone  A Quick and Easy Cream Sauce Recipe Ideal For a Perfect Weeknight Dinner At Home!Chicken Lazone A Quick and Easy Cream Sauce Recipe Ideal For a Perfect Weeknight Dinner At Home!</p>
+        </div>
+        <div>
+            <img src="https://www.licious.in/blog/wp-content/uploads/2022/09/Shutterstock_1023331516.jpg" alt="">
+            <p>The Best Oven Fried Chicken Recipe To Try At Home - It's Healthy, Juicy and Delicious!The Best Oven Fried Chicken Recipe To Try At Home - It's Healthy, Juicy and Delicious!</p>
+        </div>
+        <div>
+            <img src="https://www.licious.in/blog/wp-content/uploads/2022/09/Shutterstock_13423681761.jpg" alt="">
+            <p>Teriyaki Chicken Noodle Salad –A Quick and Easy Recipe to Try Out at Home!Teriyaki Chicken Noodle Salad –A Quick and Easy Recipe to Try Out at Home!</p>
+        </div>
+    </div>
+    <div class="ad">
+        <img src="https://d2407na1z3fc0t.cloudfront.net/homepageStaticBanner/homepageStaticBanner_62a34a172d306" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://d2407na1z3fc0t.cloudfront.net/Banner/Rebranding_homepage_madewithLicious.png" alt="">
+        <h2>#MadeWithLicious</h2>
+        <p>Cooking with Licious meats is more fun now! Post a picture of your Licious dish on our Instagram page, tag us and use #MadeWithLicious for a chance to be featured on our Instagram page! Happy Cooking!</p>
+        <a href="https://www.instagram.com/licious_foods/?hl=en">Check it out!</a>
+    </div>
+    <div class="instagram">
+        <div class="images">
+            <img src="https://d2407na1z3fc0t.cloudfront.net/cmssocails_/18/cmssocails_59b666d07fd06" alt="">
+            <div class="g1">
+                <div> <img src="https://d2407na1z3fc0t.cloudfront.net/cmssocails_/4/cmssocails_5989eaf043a52" alt="">
+                </div>
+                <div>
+                    <h6>hImanshu Avinash</h6>
+                </div>
+                <div class="logo">
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/liciousdev/Banner/instagram-logo.png" alt=""> <a href="https://www.instagram.com/p/BUzL8Ynlcoe/?hl=en&taken-by=avinashimanshu">Instagram</a>
+  
+                </div>
+            </div>
+            <p>#madewithffod,#lollicious#amazing</p>
+            <div class="review">
+                <div> <img src="https://www.licious.in/img/rebranding/chicken-leg2.png"
+                     alt="" > <a href="https://www.licious.in/chicken">Chicken lollipops</a>
+                </div>
+            </div>
+        </div>
+      
+        <div class="images">
+            <img src="https://d2407na1z3fc0t.cloudfront.net/cmssocails_/18/cmssocails_59b666dfe1643" alt="">
+            <div class="g1">
+                <div> <img src="https://d2407na1z3fc0t.cloudfront.net/cmssocails_/5/cmssocails_5989eb64baa9f" alt="">
+                </div>
+                <div>
+                    <h6>Amit bhandari</h6>
+                </div>
+                <div class="logo">
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/liciousdev/Banner/instagram-logo.png" alt=""> <a href="https://www.instagram.com/p/BUzL8Ynlcoe/?hl=en&taken-by=avinashimanshu">Instagram</a>
+  
+                </div>
+            </div>
+            <p>#madewithffod,#lollicious#amazing</p>
+            <div class="review">
+                <div> <img src="https://www.licious.in/img/rebranding/chicken-leg2.png"
+                     alt="" > <a href="https://www.licious.in/chicken">Chicken lollipops</a>
+                </div>
+            </div>
+        </div>
+      
+        <div class="images">
+            <img src="https://d2407na1z3fc0t.cloudfront.net/cmssocails_/18/cmssocails_59b666fe1f7e4" alt="">
+            <div class="g1">
+                <div> <img src="https://d2407na1z3fc0t.cloudfront.net/cmssocails_/4/cmssocails_5989eaf043a52" alt="">
+                </div>
+                <div>
+                    <h6>Farukh</h6>
+                </div>
+                <div class="logo">
+                    <img src="https://s3-ap-southeast-1.amazonaws.com/liciousdev/Banner/instagram-logo.png" alt=""> <a href="https://www.instagram.com/p/BUzL8Ynlcoe/?hl=en&taken-by=avinashimanshu">Instagram</a>
+  
+                </div>
+            </div>
+            <p>#madewithffod,#lollicious#amazing</p>
+            <div class="review">
+                <div> <img src="https://www.licious.in/img/rebranding/chicken-leg2.png"
+                     alt="" > <a href="https://www.licious.in/chicken">Chicken lollipops</a>
+                </div>
+            </div>
+        </div>
+      
+
+    </div>
+</body>
+</html>
