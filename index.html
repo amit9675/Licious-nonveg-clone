@@ -285,9 +285,211 @@ margin:auto;
 .logo img{
     width:20%;
 }
+.container{
+      display:flex;
+    width:70%;
+    margin:100px auto;
+    /* text-align:center; */
+     border:px solid red;
+     
+        }
+        .container>div{
+            border:px solid green;
+            width:100%;
+        
+        }
+        .container img{
+            width:100%;
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        }
+        .footer{
+            display: flex;
+            border: px solid red;
+             width:80%;
+             margin:auto;
+
+        }
+        .footer1{
+            display: flex;  
+        }
+        .footer>div{
+            border:px solid green;
+            width:50%;
+        }
+        .footer1>div{
+            width:40%;
+           
+            margin:auto;
+            height:90%;
+        }
+        .footer1 div:nth-child(1){
+            border-right:1px solid grey;
+        }
+      .footer1 a{
+        /* border:1px solid  brown; */
+        gap:10px;
+            padding-bottom:100px;
+            margin:auto;
+            color:rgb(74,74,74)
+        }
+        .footer1 h2{
+text-align:left;
+margin-left:-50px;
+        }
+        .footer2{
+            margin:50px 50px;
+        }
+        .cites-serving{
+margin-top:100px;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+
+        }
+        .city-list-container a{
+            border-right:1px solid rgb(194,194,194);
+            margin-right:30px;
+            /* text-align:center; */
+        }
+        .city_name{
+            text-decoration: none;
+            color:rgb(74,74,80)
+        }
+        .pop1 a{
+            border-right:1px solid rgb(194,194,194);
+            text-decoration: none;
+            color:rgb(74,74,80);
+            margin-right:30px;
+        }
+        .popular_searches{
+            margin-top:50px;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+        }
+       
+        .heading a{
+            text-decoration: none;
+            margin-bottom:50px;
+            color:rgb(74,74,80);
+        }
+        .pop1{
+            margin-top:6px;
+        }
+        #pop1{
+            width:82%;
+            color:rgb(74,74,80);
+            margin:auto;
+          
+        }
+        .faqs,.disclaimer{
+            width:80%;
+            margin:auto;
+        }
+        .disclaimer h5{
+            text-align:center;
+            margin-top:40px;
+        }
+        .hr{
+            width:80%;
+            margin:auto;
+        }
+        .popular1{
+            width:80%;
+            margin:auto;
+            border:px solid red;
+            /* padding-top:100px; */
+            /* margin-top:100px; */
+        }
+        .geek:after{
+            content: " ";
+            flex: 1 2;    
+            border-bottom: 2px solid #000;
+            margin:auto;
+            color:red;
+        }
+        .geek{
+            display:flex;
+            /* flex-direction:row; */
+           /* border:1px solid red; */
+            width:80%; 
+            margin:auto;
+        }
+        .geek img{
+            height:100px;
+            width:100px;
+            border-radius: 50%;
+        }
+        .geek p{
+            font-size: 15px;
+        }
+        #geek{
+            /* border:1px solid red; */
+            width:82%;
+            margin-bottom:-48px;
+        }
+        #temp{
+            width:100%;
+        }
+        .romeo1{
+    display:flex;
+    border:0px solid red;
+    width:70%;
+    height:50px;
+    margin:auto;
+        }
+      
+        .romeo1>div{
+            border:0px solid green; 
+            width:15%;
+            height:45px;
+            margin:auto;
+            display:flex;
+            text-align:center;
+        }
+        .romeo1>div:nth-child(3){
+            width:17.8%;
+            margin-left:-13px;
+        }
+        .romeo1>div:nth-child(2) img{
+margin-top:7px;
+        }
+
+        .romeo1>div:nth-child(2){
+            margin-left:-13px;
+        }
+        .romeo1>div:nth-child(4){
+            width:35%;
+        }
+        .romeo1>div:nth-child(1){
+            width:10%;
+        }
+        .loc{
+            display:flex;
+            font-size:13px;
+            color:darkgray;
+            text-align:center;
+        }
+        .rom2{
+            display:flex;
+        }
+        .rom2 div{
+            width:30%;
+            margin:auto;
+            text-align:center;
+        }
+        .rom2 a{
+            text-decoration: none;
+        }
+        .romeo1>div:nth-child(3){
+            width:18%;
+            height:30px;
+            /* border:1px solid red; */
+        }
+        
 </style>
 <body>
-    <div class="navbar">
+    <!-- <div class="navbar">
         <div>
             <img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt="">
         </div>
@@ -303,6 +505,30 @@ margin:auto;
           <div>login</div>
           <div>cart</div>
         </div>
+    </div> -->
+    <div>
+        <div class="romeo1">
+            <div>
+                <a href=""> <img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt=""></a>
+               </div>
+            <div class="loc">
+                <a href=""><img src="https://www.licious.in/img/rebranding/location_icon.svg" alt="">
+                    </a>
+                    <p>Delhi</p>
+                        <!-- <h6>Delhi</h6>      -->
+            </div>
+            <div class="searchb"> <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button></div>
+            <div class="rom2">
+                <div> <img src="https://www.licious.in/img/rebranding/category-dropdown-icon.svg" alt=""><a href="">Categories</a>
+                </div>
+                <div>
+                    <img src="https://www.licious.in/img/rebranding/profile_icon.svg" alt="">
+                    <a href="login.html">Login</a></div>
+            <div> 
+                <img src="https://www.licious.in/img/rebranding/cart_icon.svg" alt=""> <a href="">cart</a> </div>
+            
+                </div>
     </div>
     <div class="poster"><img src="https://d2407na1z3fc0t.cloudfront.net/Slider/banner_62e142fbed5a8" alt="">
     </div>
@@ -724,8 +950,275 @@ margin:auto;
                 </div>
             </div>
         </div>
-      
-
     </div>
+    <div class="container">
+        <div>
+            <a href="https://www.livemint.com/brand-stories/licious-is-india-s-first-animal-protein-brand-to-be-certified-with-sa8000-11655299956590.html"><img src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/35/inthenews_62aadde78bdae" alt=""></a>
+            <h6>Licious is indias finest protein.. </h6>
+        </div>
+        <div>
+            <a href="https://www.livemint.com/brand-stories/licious-is-india-s-first-animal-protein-brand-to-be-certified-with-sa8000-11655299956590.html"><img src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/35/inthenews_62aadde78bdae" alt=""></a>
+            <h6>Licious is indias finest protein..</h6>
+        </div>
+        <div>
+            <a href="https://www.livemint.com/brand-stories/licious-is-india-s-first-animal-protein-brand-to-be-certified-with-sa8000-11655299956590.html"><img src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/37/inthenews_62aae0b741820" alt=""></a>
+            <h6>Why licious is wants to become the....  </h6>
+        </div>
+        <div>
+            <a href="https://www.livemint.com/brand-stories/licious-is-india-s-first-animal-protein-brand-to-be-certified-with-sa8000-11655299956590.html"><img src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/38/inthenews_62aae10540001" alt=""></a>
+            <h6>Licious is indias finest protein.. </h6>
+        </div>
+        <div>
+            <a href="https://www.livemint.com/brand-stories/licious-is-india-s-first-animal-protein-brand-to-be-certified-with-sa8000-11655299956590.html"><img src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/35/inthenews_62aadde78bdae" alt=""></a>
+            <h6>Licious is indias finest protein..</h6>
+        </div>
+        
+    </div>
+    <div class="geek">
+        <img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt="">
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <div>
+                <h4>useful Links</h4>
+                <a href="/about-us" target="_blank" data-eventlabel="Useful Links - Why Licious">
+                    Why Licious?
+                </a><br>
+           <h6>   </h6>
+                <a href="/refer-earn-tnc" target="_blank" data-eventlabel="Useful Links - Refer & Earn">
+                    Refer & Earn</a><br>
+                    <a href="/refer-earn-tnc" target="_blank" data-eventlabel="Useful Links - Refer & Earn">
+                        <h6>   </h6>
+                    <a href="/licious-cash" target="_blank" data-eventlabel="Useful Links - Licious Cash & Cash+">
+                                                Licious Cash & Cash+ </a><br>
+                                                <h6>   </h6>
+                        <a href="http://careers.licious.in" target="_blank" data-eventlabel="Useful Links - Licious Cash & Cash+">
+                                                                           Careers
+                                                                    </a><br>
+                                                                    <h6>   </h6>
+                    <a href="https://www.licious.in/blog/" target="_blank" data-eventlabel="Useful Links - Blog">
+                                                BLOG
+                                            </a><br>
+                                            <h6>   </h6>
+                    <a href="/campaign" target="_blank" data-eventlabel="Useful Links -Campaign ">
+                                            Campaign
+                                          </a><br>
+                                          <h6>   </h6>
+                        <a href="https://www.licious.in/bug-bounty-guidelines" target="_blank" data-eventlabel="bugBountyGuidelines ">
+                                                Bug Bounty Guidelines
+                                            </a><br>
+                                            <h6>   </h6>
+                      <a href="/about-us-new" target="_blank" data-eventlabel="About-us-new ">
+                                            About Us
+                                          </a><br>
+                                          <h6>   </h6>
+                    <a href="https://www.licious.in/certification" target="_blank" data-eventlabel="certification ">
+                                                FSSC 22000 Certification
+                                            </a><br>
+                                            <h6>   </h6>
+                        <a href="https://www.licious.in/fssai-licenses" target="_blank" data-eventlabel="license ">
+                                  FSSAI Licenses
+                                            </a><br>
+                                            <h6>   </h6>
+                        <a href="/sitemap">Sitemap</a>
+            </div>
+            <div>
+                <h2 >EXPERIENCE LICIOUS APP ON MOBILE</h2>
+                 <a href="https://apps.apple.com/in/app/buy-meat-online-licious/id1052440342"><img src="https://www.licious.in/img/rebranding/app-store-new.svg" alt="">
+                    <img src="https://www.licious.in/img/rebranding/play-store-new.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer2">
+            <h3>contact us&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;T&C</h3>
+            <p>call:1800-4190-786&emsp;&emsp;&emsp;&emsp;FAQ</p>
+            <p>Talktous@licious.com&emsp;&emsp;&emsp;Privacy Policy</p>
+            <h4>Registered office address&emsp;&emsp;Have security concern?</h4>
+            <p>House of licious zed no.-12&emsp;&emsp;Mail us to:</p>
+            <p>Domlur layout&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;security@licious.com</p>
+            <p>Banglore karnataka 560071</p>
+
+        </div>
+    </div>
+     
+    <div class="cites-serving">
+        <div class="city-heading-container">
+          <!-- <span class="city-header">CITIES WE SERVE</span> -->
+          <div class="geek" id="temp">
+            <p>CITIES WE SERVE</p>
+            <!-- <img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt=""> -->
+        </div>
+         
+          <h4> </h4>
+        </div>
+        <div class="city-list-container">
+                                    <a class = "city_name" id = "Bengaluru" href="/buy-meat-online-bengaluru">
+                Bengaluru&emsp;
+                </a>
+                                    <a class = "city_name" id = "NCR" href="/buy-meat-online-ncr">
+                NCR&emsp;
+                </a>
+                                    <a class = "city_name" id = "Hyderabad" href="/buy-meat-online-hyderabad">
+                Hyderabad&emsp;
+                </a>
+                                    <a class = "city_name" id = "Chandigarh" href="/buy-meat-online-chandigarh">
+                Chandigarh&emsp;
+                </a>
+                                    <a class = "city_name" id = "Panchkula" href="/buy-meat-online-panchkula">
+                Panchkula&emsp;
+                </a>
+                                    <a class = "city_name" id = "Mohali" href="/buy-meat-online-mohali">
+                Mohali&emsp;
+                </a>
+                                    <a class = "city_name" id = "Mumbai" href="/buy-meat-online-mumbai">
+                Mumbai&emsp;
+                </a>
+                                    <a class = "city_name" id = "Pune" href="/buy-meat-online-pune">
+                Pune&emsp;
+                </a>
+                                    <a class = "city_name" id = "Chennai" href="/buy-meat-online-chennai">
+                Chennai&emsp;
+                </a>
+                                    <a class = "city_name" id = "Coimbatore" href="/buy-meat-online-coimbatore">
+                Coimbatore&emsp;
+                </a>
+                                    <a class = "city_name" id = "Jaipur" href="/buy-meat-online-jaipur">
+                Jaipur&emsp;
+                </a>
+                                    <a class = "city_name" id = "Cochin" href="/buy-meat-online-cochin">
+                Cochin&emsp&emsp;
+                </a>
+                                    <a class = "city_name" id = "Vijayawada" href="/buy-meat-online-vijayawada">
+                Vijayawada&emsp;
+                </a>
+                                    <a class = "city_name" id = "Visakhapatnam" href="/buy-meat-online-visakhapatnam">
+                Visakhapatnam&emsp;
+                </a>
+                                    <a class = "city_name" id = "Pondicherry" href="/buy-meat-online-pondicherry">
+                Pondicherry&emsp;
+                </a>
+                                    <a class = "city_name" id = "Kolkata" href="/buy-meat-online-kolkata">
+                Kolkata&emsp;
+                </a>
+                                    <a class = "city_name" id = "Trichy" href="/buy-meat-online-trichy">
+                Trichy&emsp;
+                </a>
+                                    <a class = "city_name" id = "Lucknow" href="/buy-meat-online-lucknow">
+                Lucknow&emsp;
+                </a>
+                                    <a class = "city_name" id = "Kanpur" href="/buy-meat-online-kanpur">
+                Kanpur&emsp;
+                </a>
+                                    <a class = "city_name" id = "Agra" href="/buy-meat-online-agra">
+                Agra&emsp;
+                </a>
+                                    <a class = "city_name" id = "Thrissur" href="/buy-meat-online-thrissur">
+                Thrissur&emsp;
+                </a>
+                                    <a class = "city_name" id = "Nagpur" href="/buy-meat-online-nagpur">
+                Nagpur&emsp;
+                </a>
+                                    <a class = "city_name" id = "Bhilai" href="/buy-meat-online-bhilai">
+                Bhilai&emsp;
+                </a>
+                                    <a class = "city_name" id = "Nashik" href="/buy-meat-online-nashik">
+                Nashik&emsp;
+                </a>
+                                    <a class = "city_name" id = "Palakkad" href="/buy-meat-online-palakkad">
+                Palakkad
+                </a>
+                            </div>
+</div>
+<!-- <div class="popular1"><h4>popular searches</h4></div> -->
+<div class="geek" id="geek">
+    <p>popular searches</p>
+    <!-- <img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt=""> -->
+</div>
+ 
+<div class="popular_searches">
+    <span class="heading"><a href="">Mutton</a></span>
+    <div class="pop1">
+        <a href="https://www.licious.in/red-meat/lamb-leg-boneless-pr_572356a793df6">Lamb Leg (Boneless)&emsp;</a>
+        <a href="https://www.licious.in/red-meat/lamb-leg-boneless-pr_572356a793df6">Lamb Leg (Boneless)&emsp;</a>
+        <a href="https://www.licious.in/red-meat/lean-goat-curry-cut-small-19-to-21-pieces-pr_jpsk2xfga4d">Lean Goat Curry Cut (Small - 19 to 21 pieces)&emsp;&emsp;</a>
+            <a href="https://www.licious.in/red-meat/lamb-curry-cut-small-16-to-18-pcs-pr_2s9jxe9mwwn">Rich Lamb Curry Cut (Small - 19 to 21 pieces)&emsp;</a>
+        <a href="https://www.licious.in/red-meat/lamb-shoulder-curry-cut-pr_5760cfc0caaff">Lamb Shoulder - Curry Cut (Medium)&emsp;</a>
+        <a href="https://www.licious.in/red-meat/goat-shoulder-curry-cut-pr_ov2jkm3yj3e">Goat Shoulder - Curry Cut&emsp;</a>
+        <a href="https://www.licious.in/red-meat/goat-mince-pr_579a530679ede">Goat Mince/Keema&emsp;</a>
+    </div>
+</div> 
+<div class="hr"><hr></div>
+<div class="popular_searches">
+    <span class="heading"> <a href="https://www.licious.in/seafood">Fish &amp; Seafood</a></span>
+    <div class="pop1">
+       
+        <a href="https://www.licious.in/seafood/mackerel-gutted-pr_57235831e3960">Premium Grade Mackerel (Cleaned)&emsp;</a>
+    <a href="https://www.licious.in/seafood/sardine-whole-cleaned-gutted-pr_596601367dd0d">Sardine (Whole - Cleaned &amp; Gutted)&emsp;</a>
+    <a href="https://www.licious.in/seafood/freshwater-catla-bengali-cut-without-head-pr_6j4jhlmzwle">Freshwater Catla - Bengali Cut (Without Head)&emsp;</a>
+        <a href="https://www.licious.in/seafood/freshwater-rohu-bengali-cut-without-head-pr_6j4jhlmxsk1">Freshwater Rohu - Bengali Cut (Without Head)&emsp;</a>
+    <a href="https://www.licious.in/seafood/basa-fillet-platinum-grade-pr_8izjlf6xn0k">Basa Fillet - (Platinum Grade)&emsp;</a>
+    <a href="https://www.licious.in/seafood/basa-boneless-tikka-cut-pr_3rkjm1v51mm">Basa Cubes (Boneless)&emsp;</a>
+        <a href="https://www.licious.in/seafood/prawns-medium-without-tail-81e18f8a-da1a-4957-acdb-e6aa2d402609-pr_6zvk7zqjeap">Medium Prawns -  Without Tail&emsp;</a>
+    </div>
+</div> 
+<div class="hr"><hr></div>
+<div class="popular_searches">
+    <span class="heading"><a href="">Ready to Cook</a></span>
+    <div class="pop1">
+            <a href="https://www.licious.in/marinades/amritsari-achari-murgh-pr_57ab6c26933b5">Amritsari Achari Murgh&emsp;</a>
+            <a href="https://www.licious.in/marinades/caribbean-jerk-chicken-boneless-pr_572358cee5c09">Caribbean Jerk Chicken (Boneless)</a>
+            <a href="https://www.licious.in/marinades/chicken-malai-tikka-pr_572358fc1c7c3">Chicken Malai Tikka (Boneless)&emsp;</a>
+            <a href="https://www.licious.in/marinades/peri-peri-chicken-pr_572359462392e">Peri Peri Chicken (Spicy)&emsp;</a>
+            <a href="https://www.licious.in/marinades/afghani-chicken-pr_8izjkuohf8n">Creamy Afghani Chicken&emsp;</a>
+            <a href="https://www.licious.in/marinades/nilgiri-fish-pr_hd2jpfd81gp">Nilgiri Fish Tikka&emsp;</a>
+            <a href="https://www.licious.in/marinades/habanero-chicken-wings-hot-10-pieces-pr_4rqjeo4sujr">Habanero Chicken Wings (Hot) - 10 Pieces&emsp;</a>
+    </div>
+</div> 
+<div class="hr"><hr></div>
+<div class="popular_searches">
+    <span class="heading"><a href="https://www.licious.in/chicken">Chicken</a></span>
+    <div class="pop1">
+        
+<a href="https://www.licious.in/chicken/tender-spring-chicken-curry-cut-pr_hn6k8alrcck">Tender Spring Chicken Curry Cut&emsp;</a>
+<a href="https://www.licious.in/chicken/chicken-breast-boneless-b9e6c3b0-5b0a-4078-a4eb-1b88f6e2dc5f-pr_3nqjtznab5c">Chicken Breast Boneless&emsp;</a>
+                </li>
+<a href="https://www.licious.in/chicken/chicken-thigh-curry-cut-small-pack-pr_2j9jxbzk1cl">Chicken Leg Curry Cut (Large - 4 pieces)&emsp;</a>
+<a href="https://www.licious.in/chicken/chicken-curry-cut-pr_57234c427648b">Chicken Curry Cut (Large - 8 to 10 Pieces)&emsp;</a>
+<a href="https://www.licious.in/chicken/chicken-oriental-cut-pr_5785b9065d7e1">Chicken Curry Cut (Small - 13 to 16 Pieces)&emsp;</a>
+<a href="https://www.licious.in/chicken/chicken-thigh-boneless-pr_3nqjtzosblz">Chicken Thigh (Boneless)&emsp;</a>
+    </div>
+</div> 
+<div class="hr"><hr></div>
+<div class="faqs">
+    <h4>We will sell only the meat that we would eat ourselves.</h4>
+    <p>
+        At Licious, we’re big meat-lovers. And by big, we mean huge. So when it comes to the meat we
+        put on your plate, we’re extremely picky. Every single product is handpicked by a team with years of experience.
+    </p>
+    <h4>If it’s not fresh, we won’t sell it.</h4>
+    <p>
+        For meat to stay fresh and retain its natural juices, it needs to be stored at a temperature between 0° and 5°. We maintain this temperature from the time we procure the product to cleaning, cutting and storing it, until it leaves for delivery. And even when it’s out for delivery, we keep it chilled right up to your doorstep.
+        Did we mention that we’re obsessed?
+    </p>
+    <h4>We will charge only for what you buy.</h4>
+    <p>
+        Doesn’t everyone do this? Not really. Most other places first weigh the meat, then cut up the pieces, and throw out the parts which aren’t fit to eat, such as offal, gizzard, wingtips, etc.
+        But you still pay based on the original weight even though what you finally get is 10% to 30% less
+    </p>
+</div>
+<div class="hr"><hr></div>
+<div class="disclaimer">
+    <h5>
+        <img data-lazy="/img/rebranding/copyright2.png" alt=""><span>2022</span> Delightful Gourmet Pvt Ltd. All Rights Reserved.
+    </h5>
+    <p>
+        Licious is your one-stop fresh meat delivery shop. In here, you get nothing but
+        the freshest meat & seafood, delivered straight to your doorstep. Now you can buy
+        meat online anytime at your convenience. Indulge in our diverse selection: Chicken,
+        Mutton, Seafood (Fish, Prawns, Crabs), Marinades & Cold Cuts. All our products are 
+        completely natural and healthy. Once you've experienced Licious, you'll never
+        go back to the old way of buying meat and seafood.
+    </p>
+</div>
+
 </body>
 </html>
