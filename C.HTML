@@ -20,6 +20,7 @@
     margin-left:190px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
         }
    
         .romeo1>div{
@@ -47,6 +48,106 @@ margin-top:7px;
         .romeo1>div:nth-child(1){
             width:10%;
         }
+        /* <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!POSTER SECTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->  */
+        .poster img{
+    margin-top:70px;
+    width:100%;
+    border:0px solid red;
+}
+ /* <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!BANNER SECTION-1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->  */
+ .ban2 a{
+    text-decoration: none;
+}
+.banner{
+    /* display:flex; */
+    background-color: rgb(255,220,147);
+    width:60%;
+    height:95px;
+    margin:auto;
+    /* justify-content: space-between; */
+}
+.banner-top{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+}
+.banner button{
+    background-color: rgb(209,18,67);
+    font-size: 16px;
+    font-weight: 500;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+.banner-bottom{
+    margin-left:10px;
+}
+
+.o{
+            border-left:1px solid rgb(74,74,74);
+            border-right:1px solid rgb(74,74,74);
+            display:flex;
+            width:80%;
+            margin:auto;
+            height:70px;
+            margin-top:-25px;
+
+        }
+        .o div{
+            border-left:1px solid rgb(74,74,74);
+            border-right:1px solid rgb(74,74,74);
+            width:18%;
+            margin:auto;
+            height:55px;
+            text-align: center;
+        }
+        .o div p:nth-child(2){
+/* color:red; */
+margin-top:-14px;
+        }
+        .oo{
+border:px solid green;
+width:80%;
+margin:auto;
+text-align:center;
+background-color: white;
+color:rgb(209,18,67);
+size:100px;
+        }
+        .oo>h3:before,h3:after{
+content: " ";
+flex:1 1;
+border-bottom:1px solid rgb(74,74,74);
+margin:auto;
+        }
+        .oo>button:before,button:after{
+            border:0px solid yellow;
+            content: " ";
+flex:1 1;
+border-bottom:1px solid rgb(74,74,74);
+margin:auto;
+        }
+        .oo button{
+            border:px solid yellow;
+            width:101%;
+            background-color:white;
+            border:none;
+        }
+        .oo h3,button{
+            display:flex;
+            flex-direction:row;
+            font-size:20px;
+            color:rgb(209,18,67)
+        }
+        .oo button:hover{
+            cursor:pointer;
+            font-style: bold;
+            
+        }
+
         .loc{
             display:flex;
             font-size:13px;
@@ -84,7 +185,7 @@ height:800px;
 background-image: url("https://www.licious.in/img/rebranding/user-login-new.jpg");
 width:430px;
         }
- li{
+        li{
             list-style:none;
         }
         .loginMenu input[type="checkbox"]:checked ~ .items{
@@ -103,6 +204,7 @@ width:430px;
         }
      
         .form{
+            
             width:30px;
             height:32px;
             position:absolute;
@@ -158,16 +260,44 @@ width:430px;
         height:40px;
         border:none;
       }
- /* <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!POSTER SECTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->  */
-.poster img{
-    margin-top:70px;
+    .i>input{
+width:70%;
+    }
+    .location{
+        width:50%;
+        border:px solid purple;
+    }
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+        border:px solid red;
+        /* height:100px; */
+        width: 70%;
+        gap:20px;
+        margin:auto;
+        margin-top:10px;
+    }
+    #grid div{
+        border:px solid purple;
+        /* margin:auto; */
+        text-align: center;
+      
+    }
+    #grid div img:hover{
+        transform:scale(1.1);
+    }
+
+#grid div img{
     width:100%;
-    border:0px solid red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-/* !!!!!!!!!!!!!!!!!!!!gRID SECTION!!!!!!!!!!!! */
 .menu1{
     width:70%;
     margin:auto;
+}
+.a-top:hover{
+cursor: pointer;
 }
 .menu1 p{
     /* padding-top:100px; */
@@ -175,112 +305,43 @@ width:430px;
     margin-top:-20px;
 }
 
- /* <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!BANNER SECTION-1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->  */
- .ban2 a{
-    text-decoration: none;
+.know_the{
+    position:relative;
+    /* border:1px solid red; */
 }
-.banner{
-    /* display:flex; */
-    background-color: rgb(255,220,147);
-    width:60%;
-    height:95px;
-    margin:auto;
-    /* justify-content: space-between; */
+ul{
+    list-style-type: none;
 }
-.banner-top{
+.ul{
     display:flex;
-    justify-content: space-between;
-    padding-top: 16px;
-    padding-right: 12px;
-    padding-bottom: 16px;
-    padding-left: 12px;
 }
-.banner button{
-    background-color: rgb(209,18,67);
-    font-size: 16px;
-    font-weight: 500;
-    border:none;
-    border-radius: 5px;
-    color:white;
-}
-.banner-bottom{
-    margin-left:10px;
-}
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!kNOW THE LICIOUS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->  */
-.o{
-            border-left:1px solid rgb(74,74,74);
-            border-right:1px solid rgb(74,74,74);
-            display:flex;
-            width:80%;
-            margin:auto;
-            height:70px;
-            margin-top:-25px;
-
-        }
-        .o div{
-            border-left:1px solid rgb(74,74,74);
-            border-right:1px solid rgb(74,74,74);
-            width:18%;
-            margin:auto;
-            height:55px;
-            text-align: center;
-        }
-          
-        .o div p:nth-child(2){
-
-margin-top:-14px;
-        }
-        .oo{
-border:px solid green;
-width:80%;
-margin:auto;
-text-align:center;
-background-color: white;
-color:rgb(209,18,67);
-size:100px;
-        }
-        .oo>h3:before,h3:after{
-content: " ";
-flex:1 1;
-border-bottom:1px solid rgb(74,74,74);
-margin:auto;
-        }
-        .oo>button:before,button:after{
-            border:0px solid yellow;
-            content: " ";
-flex:1 1;
-border-bottom:1px solid rgb(74,74,74);
-margin:auto;
-        }
-        .oo button{
-            border:px solid yellow;
-            width:101%;
-            background-color:white;
-            border:none;
-        }
-        .oo h3,button{
-            display:flex;
-            flex-direction:row;
-            font-size:20px;
-            color:rgb(209,18,67)
-        }
-        .oo button:hover{
-            cursor:pointer;
-            font-style: bold;
-            
-        }
-        /* <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!BANNER iMAGE-1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   --> */
-
-        #banko img{
-    width:70%;
+.subh{
+    display:flex;
+    border:1px solid black;
+    width:60%;
     margin:auto;
-    margin-left:260px;
-    border:px solid red;
-
+    text-align:center;
+    margin-top:-10px;
 }
-        /* <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!BEST SELLERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->  */
-
-        .a,.boneless-cuts{
+.subh div{
+    border-right:1px solid black;
+    border:0px solid black;
+    margin:auto;
+    text-align:center;
+}
+.table h2{
+    text-align:center;
+    border:0px solid black;
+    width:20%;
+    margin:auto;
+    /* padding-top: 100px; */
+    background-color: white;
+}
+.img{
+    width:70%;
+    margin:20px auto;
+}
+.a,.boneless-cuts{
             display: grid;
     grid-template-columns: repeat(3,1fr);
     /* grid-template-rows: 100px; */
@@ -332,29 +393,15 @@ border-top-right-radius: 15px;
 .a-top h3,p,h4,h5{
     margin-left:15px;
 }
-
-
-    .i>input{
-width:70%;
-    }
-    .location{
-        width:50%;
-        border:px solid purple;
-    }
-   
-
-.a-top:hover{
-cursor: pointer;
+.h2{
+    width:80%;
+    margin:auto;
 }
-/* !!!!!!!MENU------2!!!!!!!! */
 
 .menu2{
     margin-top:60px;
     margin-bottom:10px;
 }
-
-/* !!!!!!!!!Boneless Cuts!!!!!!!! */
-/* !!!!!!!!!Banner-2!!!!!!!! */
 .banner-2{
     display:flex;
     justify-content:space-around;
@@ -379,57 +426,22 @@ justify-content:flex-start;
 .b2 h5{
 margin-top:15px;
 }
-
-/* !!!!!!!!!Banner-2!!!!!!!! */
-/* -----------------ID-__GRID-------------- */
-#grid{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(3,1fr);
-        border:px solid red;
-        /* height:100px; */
-        width: 70%;
-        gap:20px;
-        margin:auto;
-        margin-top:10px;
-    }
-    #grid div{
-        border:px solid purple;
-        /* margin:auto; */
-        text-align: center;
-      
-    }
-    #grid div img:hover{
-        transform:scale(1.1);
-    }
-
-#grid div img{
-    width:100%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.dis{
+    color:green;
 }
-/* -----------------ID-__GRID-------------- */
- /* -----------------CLASS-H2---------------- */
- .h2{
-    width:80%;
-    margin:auto;
-}
-
- /* -----------------CLASS-H2---------------- */
- /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
- /* --------------------class==checkOut----------------- */
-
- .checkout{
+.checkout{
     display:flex;
     width:80%;
     margin:auto;
     border:px solid red;
     justify-content: space-between;
 }
- /* --------------------checkOut----------------- */
- /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
- /* --------------------class==blog----------------- */
+.see{
+    margin-top:30px;
+    margin-right:40px;
 
- .blog{
+}
+.blog{
 display:flex;
 width:80%;
 margin:auto;
@@ -442,20 +454,12 @@ margin:auto;
     margin:auto;
     border:px solid red;
 }
- /* --------------------class==blog----------------- */
- /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
- /* --------------------class==AD----------------- */
-
- .ad{
+.ad{
     /* margin:auto;
     width:100%; */
     text-align:center;
 }
- /* --------------------class==AD----------------- */
- /* <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! --> */
- /* --------------------class==Insata,instagram,images----------------- */
-
- .insta{
+.insta{
     text-align:center;
 }
 .insta p{
@@ -493,15 +497,7 @@ margin:auto;
 .logo img{
     width:20%;
 }
- /* --------------------Insata,instagram,images----------------- */
-
-
-
- /* -------------------------------------- */
-
-
- /* --------------------class==conatainer----------------- */
- .container{
+.container{
       display:flex;
     width:70%;
     margin:100px auto;
@@ -518,12 +514,7 @@ margin:auto;
             width:100%;
             box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
         }
-
- /* --------------------conatainer----------------- */
-
-
- /* --------------------class==subcribe----------------- */
- .subscribe{
+        .subscribe{
             display:flex;
             background-color: grey;
             border:px solid red;
@@ -550,12 +541,21 @@ margin:auto;
         .subscribe div:nth-child(2){
         border:none;
         }
-
- /* --------------------subscribe----------------- */
-
- /* 
- --------------------class==geek----------------- */
- .footer{
+        /* 
+        
+        .cock button{
+            height:35px;
+        } */
+        .cock>input{
+            width:40%;
+            height:30px;
+        }
+        .cock{
+            display:flex;
+            height:35px;
+            width:60%;
+        }
+        .footer{
             display: flex;
             border: px solid red;
              width:80%;
@@ -573,7 +573,7 @@ margin:auto;
             width:40%;
            
             margin:auto;
-   height:90%;
+            height:90%;
         }
         .footer1 div:nth-child(1){
             border-right:1px solid grey;
@@ -591,45 +591,15 @@ margin-left:-50px;
         }
         .footer2{
             margin:50px 50px;
-      }
-  .geek:after{
-            content: " ";
-            flex: 1 2;    
-            border-bottom: 2px solid #000;
-            margin:auto;
-            color:red;
         }
-        .geek{
-            display:flex;
-            /* flex-direction:row; */
-           /* border:1px solid red; */
-            width:80%; 
-            margin:auto;
-        }
-        .geek img{
-            height:100px;
-            width:100px;
-            border-radius: 50%;
-        }
-        .geek p{
-            font-size: 15px;
-        }
-        #geek{
-            /* border:1px solid red; */
-            width:82%;
-            margin-bottom:-48px;
-        }
-
- /* --------------------geek----------------- */
- /* 
- --------------------class==city----------------- */
- .cites-serving{
+        .cites-serving{
 margin-top:100px;
 width:80%;
 margin-left:auto;
 margin-right:auto;
+
         }
- .city-list-container a{
+        .city-list-container a{
             border-right:1px solid rgb(194,194,194);
             margin-right:30px;
             /* text-align:center; */
@@ -638,103 +608,6 @@ margin-right:auto;
             text-decoration: none;
             color:rgb(74,74,80)
         }
- #temp{
-            width:100%;
-        }
-
- /* --------------------city----------------- */
-
-
- /* 
- --------------------class==disclaimer----------------- */
-
- .faqs,.disclaimer{
-            width:80%;
-            margin:auto;
-        }
-        .disclaimer h5{
-            text-align:center;
-            margin-top:40px;
-        }
-        .hr{
-            width:80%;
-            margin:auto;
-        }
-        .popular1{
-            width:80%;
-            margin:auto;
-            border:px solid red;
-            /* padding-top:100px; */
-            /* margin-top:100px; */
-        }
-
-
- /* --------------------checkOut----------------- */
- /* 
- --------------------class==checkOut----------------- */
-
-
- /* --------------------checkOut----------------- */
- /* 
- --------------------class==checkOut----------------- */
-
-
- /* --------------------checkOut----------------- */
-.know_the{
-    position:relative;
-    /* border:1px solid red; */
-}
-ul{
-    list-style-type: none;
-}
-.ul{
-    display:flex;
-}
-.subh{
-    display:flex;
-    border:1px solid black;
-    width:60%;
-    margin:auto;
-    text-align:center;
-    margin-top:-10px;
-}
-.subh div{
-    border-right:1px solid black;
-    border:0px solid black;
-    margin:auto;
-    text-align:center;
-}
-.table h2{
-    text-align:center;
-    border:0px solid black;
-    width:20%;
-    margin:auto;
-    /* padding-top: 100px; */
-    background-color: white;
-}
-
-
-
-.dis{
-    color:green;
-}
-
-.see{
-    margin-top:30px;
-    margin-right:40px;
-
-}
-        .cock>input{
-            width:40%;
-            height:30px;
-        }
-        .cock{
-            display:flex;
-            height:35px;
-            width:60%;
-        }
-      
-       
         .pop1 a{
             border-right:1px solid rgb(194,194,194);
             text-decoration: none;
@@ -762,11 +635,60 @@ margin-right:auto;
             margin:auto;
           
         }
+        .faqs,.disclaimer{
+            width:80%;
+            margin:auto;
+        }
+        .disclaimer h5{
+            text-align:center;
+            margin-top:40px;
+        }
+        .hr{
+            width:80%;
+            margin:auto;
+        }
+        .popular1{
+            width:80%;
+            margin:auto;
+            border:px solid red;
+            /* padding-top:100px; */
+            /* margin-top:100px; */
+        }
+        .geek:after{
+            content: " ";
+            flex: 1 2;    
+            border-bottom: 2px solid #000;
+            margin:auto;
+            color:red;
+        }
+        .geek{
+            display:flex;
+            /* flex-direction:row; */
+           /* border:1px solid red; */
+            width:80%; 
+            margin:auto;
+        }
+        .geek img{
+            height:100px;
+            width:100px;
+            border-radius: 50%;
+        }
+        .geek p{
+            font-size: 15px;
+        }
+        #geek{
+            /* border:1px solid red; */
+            width:82%;
+            margin-bottom:-48px;
+        }
+        #temp{
+            width:100%;
+        }
        
-    
 </style>
 <body>
-   <div class="">
+  
+    <div class="">
         <div class="r76">
             <div class="romeo1">
                 <div>
@@ -810,8 +732,7 @@ margin-right:auto;
                 
                     </div>
         </div>
-        <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!POSTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<div class="poster"><img src="https://d2407na1z3fc0t.cloudfront.net/Slider/banner_62e142fbed5a8" alt="">
+    <div class="poster"><img src="https://d2407na1z3fc0t.cloudfront.net/Slider/banner_62e142fbed5a8" alt="">
     </div>
     <div class="menu1">
         <h2>Shop By Categories</h2>
@@ -871,8 +792,6 @@ margin-right:auto;
     
     
 </div>
- <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!BANNER SECTION-1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->  
-
 <div class="ban2">
     <a href="https://www.licious.in/loyalty/licious-meatopia"><div class="banner">
         <div class="banner-top">
@@ -885,7 +804,38 @@ margin-right:auto;
         </div>
         </div></a>
 </div>
-/* <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!kNOW THE LICIOUS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->  */
+
+
+<!-- <div class="table">
+<h2>know the licious way</h2>
+<div class="subh">
+    <div>
+       <p>Premium</p>
+        <p>Produce</p>
+    </div>
+  
+    <div>
+       <p>Premium</p>
+        <p>Produce</p>
+    </div>
+  
+    <div>
+       <p>Premium</p>
+        <p>Produce</p>
+    </div>
+  
+    <div>
+       <p>Premium</p>
+        <p>Produce</p>
+    </div>
+  
+    <div>
+       <p>Premium</p>
+        <p>Produce</p>
+    </div>
+  
+</div>
+</div> -->
 <div class="oo">
     <h3>&emsp;&emsp;&emsp;Know the licious way&emsp;&emsp;&emsp;</h3>
 </div>
@@ -904,14 +854,10 @@ margin-right:auto;
 <div class="oo">
     <button>Discover now</button>
 </div>
-
- <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!BANNER iMAGE-1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   -->
-     <div id="banko">
-   <a href=""><img src="https://dao54xqhg9jfa.cloudfront.net/OMS-StaticBanner/4c895baf-28fb-2833-8d19-37d05c51d39c/original/static-bank-units-Sep-web_(11).jpg?format=webp" alt=""></a>
-
+     <div class="img">
+   <a href=""> <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-StaticBanner/4c895baf-28fb-2833-8d19-37d05c51d39c/original/static-bank-units-Sep-web_(11).jpg?format=webp" alt=""></a>
+      
      </div>  
-     <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!BEST SELLERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->  
-
      <h2 class="h2">Best Sellers</h2>
      <div class="a">
         <div class="a-top">
@@ -960,15 +906,10 @@ margin-right:auto;
             </div>
         </div>
    </div>
-   <!-- ----------------------------------- -->
-   <!-- ------------------ -->
-   
-   
    <div class="menu2">
     <h2 class="h2">Boneless-cuts</h2>
    </div>
-<!-- -------------------------------- -->
-<!-- -------------------------------- -->
+
 <div class="boneless-cuts">
 <div class="a-top">
         <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/daf3ab27-1f37-174b-9732-b912d2bd9bf8/original/Goat-Boneless-Hero-Shot.jpg?format=webp" alt="">
@@ -1016,9 +957,6 @@ margin-right:auto;
         </div>
     </div>
    </div>
-   <!-- -------------------------------------- -->
-   <!-- -------------------------------------- -->
-   <!-- -------------------------------------- -->
 <div class="banner-2">
     <div class="b2">
         <div>
@@ -1037,10 +975,6 @@ margin-right:auto;
    <div class="h2">
     <h2>Explore by categories</h2>
    </div>
-   <!-- ----------------------------------- -->
-   <!-- ----------------------------------- -->
-   <!-- ----------------------------------- -->
-
  <div id="grid">
     
 <div>
@@ -1091,11 +1025,12 @@ margin-right:auto;
         <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/1bd08fae-c971-390a-ce8a-6f6502f5bd0d/original/Eggs_(1).png" alt="">
         <h3>Gourmet</h3>
     </div>
+    
+    
 </div>
-<!-- ------------------------------------------- -->
-<!-- ------------------------------------------- -->
 <div class="h2">
     <h2>Breakfast & Snacking Specials</h2>
+
     <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 </div>
 <div class="a">
@@ -1150,8 +1085,6 @@ margin-right:auto;
     </div>
     </div>
 </div>
-<!-- ----------------------------------------------- -->
-<!-- ----------------------------------------------- -->
 <div class="checkout">
     <div><h2>Checkout our vlogs</h2></div>
     <div class="see"><a href="https://www.licious.in/blog/"> See all</a></div>
@@ -1179,20 +1112,17 @@ margin-right:auto;
          
         </div>
     </div>
-    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <div class="ad">
         <img src="https://d2407na1z3fc0t.cloudfront.net/homepageStaticBanner/homepageStaticBanner_62a34a172d306" alt="">
     </div>
-     <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <div class="insta">
         <img src="https://d2407na1z3fc0t.cloudfront.net/Banner/Rebranding_homepage_madewithLicious.png" alt="">
         <h2>#MadeWithLicious</h2>
         <p>Cooking with Licious meats is more fun now! Post a picture of your Licious dish on our Instagram page, tag us and use #MadeWithLicious for a chance to be featured on our Instagram page! Happy Cooking!</p>
         <a href="https://www.instagram.com/licious_foods/?hl=en">Check it out!</a>
     </div>
-    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <div class="instagram">
-<div class="images">
+        <div class="images">
             <img src="https://d2407na1z3fc0t.cloudfront.net/cmssocails_/18/cmssocails_59b666d07fd06" alt="">
             <div class="g1">
                 <div> <img src="https://d2407na1z3fc0t.cloudfront.net/cmssocails_/4/cmssocails_5989eaf043a52" alt="">
@@ -1255,7 +1185,6 @@ margin-right:auto;
             </div>
         </div>
     </div>
-    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <div class="container">
         <div>
             <a href="https://www.livemint.com/brand-stories/licious-is-india-s-first-animal-protein-brand-to-be-certified-with-sa8000-11655299956590.html"><img src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/35/inthenews_62aadde78bdae" alt=""></a>
@@ -1279,7 +1208,6 @@ margin-right:auto;
         </div>
         
     </div>
-    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <div class="subscribe">
         <div>
             <img src="https://www.licious.in/img/rebranding/banner/bottom6.png" alt="">
@@ -1293,7 +1221,6 @@ margin-right:auto;
   
         </div>
     </div>
-    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <div class="geek">
         <img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt="">
     </div>
@@ -1359,7 +1286,7 @@ margin-right:auto;
 
         </div>
     </div>
-     <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+     
     <div class="cites-serving">
         <div class="city-heading-container">
           <!-- <span class="city-header">CITIES WE SERVE</span> -->
@@ -1369,9 +1296,7 @@ margin-right:auto;
         </div>
          
           <h4> </h4>
-
         </div>
-        
         <div class="city-list-container">
                                     <a class = "city_name" id = "Bengaluru" href="/buy-meat-online-bengaluru">
                 Bengaluru&emsp;
@@ -1451,12 +1376,11 @@ margin-right:auto;
                             </div>
 </div>
 <!-- <div class="popular1"><h4>popular searches</h4></div> -->
-<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 <div class="geek" id="geek">
     <p>popular searches</p>
     <!-- <img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt=""> -->
 </div>
- <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+ 
 <div class="popular_searches">
     <span class="heading"><a href="">Mutton</a></span>
     <div class="pop1">
@@ -1542,5 +1466,6 @@ margin-right:auto;
         go back to the old way of buying meat and seafood.
     </p>
 </div>
+
 </body>
 </html>
